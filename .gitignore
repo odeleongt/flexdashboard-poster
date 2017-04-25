@@ -1,0 +1,5 @@
+# Ignore Rproject files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
