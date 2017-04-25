@@ -132,7 +132,7 @@ Here you would describe some amazing results.
 Since this poster is about making a poster, I show the poster we last made.
 
 **Fig. 1: Even the wisest cannot tell. For the mirror… shows many things…**
-<img src="../poster/poster.png" alt="What will I see?" style="width:100%"></img>
+<img src="../output/poster.png" alt="What will I see?" style="width:100%"></img>
 
 
 
