@@ -7,13 +7,13 @@ res <- 300
 # Render document
 rmarkdown::render(
   input = "poster/flexdashboard-poster.Rmd",
-  output_file = paste0("../content/", output_file)
+  output_file = paste0("../output/", output_file)
 )
 
 # Render preview
 webshot::webshot(
-  url = paste0("content/", output_file),
-  file = "poster/poster.png",
+  url = paste0("output/", output_file),
+  file = "output/poster.png",
   vwidth = width,
   vheight = floor(width * sqrt(2)),          # Use A series aspect ratio
   delay = 1,                                 # Wait to allow all element to load
