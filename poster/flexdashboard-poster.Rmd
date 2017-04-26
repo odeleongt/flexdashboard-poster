@@ -157,7 +157,7 @@ You need to manually include them using a <img> tag as shown below.
 #### Output for printing
 
 A png file is produced by `scripts/render-poster.R`.
-By default it is set to use a 300ppi resolution and A3 size.
+By default it is set to use a 300ppi resolution and A1 size.
 For now, some testing is necessary to adjust scale and poster size.
 
 
