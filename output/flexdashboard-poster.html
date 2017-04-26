@@ -2676,7 +2676,7 @@ window.FlexDashboardComponents.push({
 <li>flexdashboard <span class="citation">(Allaire 2017)</span></li>
 <li>webshot <span class="citation">(Chang 2016)</span></li>
 </ul>
-<p>To use <code>scripts/generic-content</code> you will need a GNU/Linux system and a working installation of <code>imagemagick</code>.</p>
+<p>To use <code>scripts/generic-content.R</code> you will need a GNU/Linux system and a working installation of <code>imagemagick</code>.</p>
 <p><strong>Preparing your analysis environment</strong></p>
 <p>In order to use this poster template, you need to:</p>
 <ol style="list-style-type: decimal">
@@ -2719,17 +2719,17 @@ git push origin gh-pages</code></pre>
 </div>
 <div id="reproducible-results-with-r" class="section level4">
 <h4>Reproducible results with R</h4>
-<p>As we have come to expect, results from R computations can be included as well. Since adjusting figure positions will be almost always necesary, figures are by default saved to <code>output/img</code> and not shown on the poster. You need to manually include them using a <img> tag as shown below.</p>
+<p>As we have come to expect, results from R computations can be included as well. Since adjusting figure positions will be almost always necesary, figures are by default saved to <code>output/img/</code> and not shown on the poster. You need to manually include them using a <img> tag as shown below.</p>
 <div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html">**Fig. 1: Place the volcano figure where you please.**
 <span class="kw">&lt;img</span><span class="ot"> src=</span><span class="st">&quot;img/volcano-plot-1.png&quot;</span><span class="ot"> style=</span><span class="st">&quot;width:100%&quot;</span><span class="kw">&gt;&lt;/img&gt;</span></code></pre></div>
 </div>
 <div id="output-for-printing" class="section level4">
 <h4>Output for printing</h4>
-<p>A png file is produced by <code>scripts/render-poster.R</code>. By default it is set to use a 300ppi resolution and A3 size. For now, some testing is necessary to adjust scale and poster size.</p>
+<p>A png file is produced by <code>scripts/render-poster.R</code>. By default it is set to use a 300ppi resolution and A1 size. For now, some testing is necessary to adjust scale and poster size.</p>
 </div>
 </div>
 <div id="discussion" class="section level3">
-<h3>Discussion</h3>
+<h3><strong>Discussion</strong></h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
@@ -2896,7 +2896,7 @@ This poster template dependes on the following R packages
 - flexdashboard [@flexdashboard]
 - webshot [@webshot]
 
-To use `scripts/generic-content` you will need a GNU/Linux system
+To use `scripts/generic-content.R` you will need a GNU/Linux system
 and a working installation of `imagemagick`.
 
 
@@ -2962,7 +2962,7 @@ filled.contour(volcano)
 
 As we have come to expect, results from R computations can be included as well.
 Since adjusting figure positions will be almost always necesary,
-figures are by default saved to `output/img` and not shown on the poster.
+figures are by default saved to `output/img/` and not shown on the poster.
 You need to manually include them using a <img> tag as shown below.
 
 ```html
@@ -2974,11 +2974,11 @@ You need to manually include them using a <img> tag as shown below.
 #### Output for printing
 
 A png file is produced by `scripts/render-poster.R`.
-By default it is set to use a 300ppi resolution and A3 size.
+By default it is set to use a 300ppi resolution and A1 size.
 For now, some testing is necessary to adjust scale and poster size.
 
 
-### Discussion
+### **Discussion**
 
 
 ```{r new-standard}
