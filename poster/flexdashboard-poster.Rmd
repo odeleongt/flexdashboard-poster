@@ -79,7 +79,7 @@ This poster template dependes on the following R packages
 - flexdashboard [@flexdashboard]
 - webshot [@webshot]
 
-To use `scripts/generic-content` you will need a GNU/Linux system
+To use `scripts/generic-content.R` you will need a GNU/Linux system
 and a working installation of `imagemagick`.
 
 
@@ -145,7 +145,7 @@ filled.contour(volcano)
 
 As we have come to expect, results from R computations can be included as well.
 Since adjusting figure positions will be almost always necesary,
-figures are by default saved to `output/img` and not shown on the poster.
+figures are by default saved to `output/img/` and not shown on the poster.
 You need to manually include them using a <img> tag as shown below.
 
 ```html
@@ -157,11 +157,11 @@ You need to manually include them using a <img> tag as shown below.
 #### Output for printing
 
 A png file is produced by `scripts/render-poster.R`.
-By default it is set to use a 300ppi resolution and A3 size.
+By default it is set to use a 300ppi resolution and A1 size.
 For now, some testing is necessary to adjust scale and poster size.
 
 
-### Discussion
+### **Discussion**
 
 
 ```{r new-standard}
