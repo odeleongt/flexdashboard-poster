@@ -56,7 +56,7 @@ knitr::opts_chunk$set(
 poster preparation, none of them are ideal.
 Commonly, point-and-click software is used to arrange poster content,
 regardless of the analysis pipeline.
-Most of these software tools are propietary, thus trapping our content.
+Most of these software tools are proprietary, thus trapping our content.
 Typical free and script based tools such as $\LaTeX$ might not be appealing
 or seem as complex as using a point-and-click tool.
 This work shows a simple template to prepare posters in a free and reproducible
