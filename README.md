@@ -1,4 +1,4 @@
-# Fexdashboard poster
+# Flexdashboard poster
 
 Minimal template for preparing a conference poster using rmarkdown.
 Check out
